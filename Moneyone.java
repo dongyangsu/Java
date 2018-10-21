@@ -13,10 +13,8 @@ public class Moneyone {
 			System.out.println("moneySalary="+(profit*0.15+moneySalary));
 		}else if(profit>5000&&profit<=10000){
 			System.out.println("moneySalary="+(profit*0.2+moneySalary));
-		}else if(profit>=10000){ 
+		}else if(profit>10000){ 
 			System.out.println("moneySalary="+(profit*0.25+moneySalary));
-			
-			
 		}
 		
 		
