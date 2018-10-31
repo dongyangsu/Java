@@ -1,7 +1,9 @@
 import java.util.*;
 public class IfElseDemo {
+	private static Scanner in;
+
 	public static void main(String args[] ){
-		Scanner in=new Scanner(System.in);
+		in = new Scanner(System.in);
 		int x=in.nextInt();
 		int y;
 		

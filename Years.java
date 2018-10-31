@@ -1,7 +1,9 @@
 import java.util.*;
 public class Years {
+	private static Scanner in;
+
 	public static void main(String[] args){
-		Scanner in=new Scanner(System.in);
+		in = new Scanner(System.in);
 		int y;
 		System.out.println("Please write out the years number:");
 		y=in.nextInt();

@@ -1,5 +1,7 @@
 import java.util.*;
 public class HomeWork3 {
+	private static Scanner in;
+
 	public static void main(String[] args){
 //		//1. ‰»Î
 //		int y=0;//x:º¶;y:Õ√;
@@ -21,7 +23,7 @@ public class HomeWork3 {
 //		HomeTest.Years(2028);
 		
 		
-		Scanner in=new Scanner(System.in);
+		in = new Scanner(System.in);
 		System.out.println("Please import which week:");
 		int w=in.nextInt();
 		HomeTest.Week(w);

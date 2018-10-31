@@ -1,7 +1,9 @@
 import java.util.*;
 public class MoneyTwo {
+	private static Scanner in;
+
 	public static void main(String args[] ){
-		Scanner in=new Scanner(System.in);
+		in = new Scanner(System.in);
 		
 		float FreeForPersonalMoney =5000;
 		int personalmoney=in.nextInt();
