@@ -1,2 +1,2 @@
 # Java
-for education study
+just for study
